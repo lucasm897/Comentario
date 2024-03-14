@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comentários</title>
+  <link rel="stylesheet" type="text/css" href="assests/style.css">
+
+</head>
+
+<body>
+  <div class="formulario ">
+    <form id="commentForm" class="commentForm">
+
+      <h3>Comentário</h3>
+      <div >
+        <label>Código do produto:</label>
+        <input type="text" id="inputCode" required /> 
+      </div>
+      <div class="medidas">
+      <div >
+        <label>Altura do produto:</label>
+        <input type="number" id="inputAltura" required /> 
+      </div>
+      <div >
+        <label>Largura do produto:</label>
+        <input type="bumber" id="inputLargura" required /> 
+      </div>
+      <div >
+        <label>Profundidade do produto:</label>
+        <input type="number" id="inputProfundidade" required /> 
+      </div>
+    </div>
+      <div >
+        <label>Comentário:</label>
+        <textarea id="inputComment" required></textarea>
+      </div>
+      <div >
+        <button type="'submit" class="Add">Adicionar</button>
+      </div>
+
+    </form>
+
+
+    <div>
+      <div id="commentShow">
+        <h3> Comentários </h3>
+        <p><strong>Código do porduto:</strong> Comentário</p>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="assests/script.js">  </script>
+</body>
+
+</html>
